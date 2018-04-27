@@ -6,4 +6,4 @@
                  [compojure "1.6.1"]
                  [ring/ring-json "0.4.0"]]
   :plugins [[lein-ring "0.12.4"]]
-  :ring {:handler short-url.core/handler})
+  :ring {:handler short-url.core/app})
